@@ -7,7 +7,7 @@ body{
     width: 1192px;
     height: 215px;
     flex-shrink: 0;
-    background-image: url('D:/Anirudh/Coding/Personal Websit/assets/mountain.png');
+    background-image: url('assets/mountain.png');
     margin: 46px auto 0px auto;
     position: relative;
 }
