@@ -1,0 +1,472 @@
+body{
+    width: 1280;
+}
+
+/* home */
+.home .home-headding-container{
+    width: 1192px;
+    height: 215px;
+    flex-shrink: 0;
+    background-image: url('D:/Anirudh/Coding/Personal Websit/assets/mountain.png');
+    margin: 46px auto 0px auto;
+    position: relative;
+}
+.home .home-headding-container .home{
+    width: 149px;
+    height: 45px;
+    border-radius: 36px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.50);
+}
+.home .home-headding-container .home p{
+    color: #FFF;
+    font-family: Poppins, Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+.home .home-details-container{
+    height: 571px;
+    width: 1192px;
+    margin: auto;
+    position: relative;
+}
+.home .home-details-container .detail-text{
+    width: 649px;
+    height: 228px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 129px;
+    left: 114px;
+}
+.home .home-details-container .detail-text h1{
+    color: #1A2322;
+    text-shadow: 3px 5px 5.7px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 5rem;
+}
+.home .home-details-container .image-background{
+    width: 344px;
+    height: 344px;
+    flex-shrink: 0;
+    border-radius: 344px;
+    background-color: #F2E19F;
+    box-shadow: 0px 4px 6.3px -66px rgba(0, 0, 0, 0.25);
+    border-radius: 172px;
+    position: absolute;
+    top: 142px;
+    left: 765px;
+}
+.home .home-details-container .image-outer{
+    width: 344px;
+    height: 403px;
+    flex-shrink: 0;
+    border-bottom-left-radius: 172px;
+    border-bottom-right-radius: 172px;
+    position: absolute;
+    top: 81px;
+    left: 765px;
+    overflow: hidden;
+}
+.home .home-details-container .download-cv{
+    width: 165px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #6E6F64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 442px;
+    left: 114px;
+    align-items: center;
+}
+.home .home-details-container .download-cv p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.969%; /* 20.996px */
+    margin-top: 10px;
+}
+.home .home-details-container .github{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #6E6F64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 442px;
+    left: 310px;
+    align-items: center;
+}
+.home .home-details-container .gmail{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #6E6F64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 442px;
+    left: 380px;
+}
+.home .home-details-container .linkedin{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #6E6F64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 442px;
+    left: 451px;
+}
+.home .home-details-container .tweeter{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #6E6F64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 442px;
+    left: 523px;
+}
+.about{
+    width: 1192px;
+    height: 436px;
+    background: #6E6F64;
+    margin: auto;
+    position: relative;
+}
+.about .about-headding{
+    width: 435px;
+    height: 42px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 20px;
+    left: 28px;
+}
+.about h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about .image-background{
+    width: 117.977px;
+    height: 117.977px;
+    flex-shrink: 0;
+    border-radius: 69px;
+    background-color: #F2E19F;
+    box-shadow: 0px 4px 6.3px -66px rgba(0, 0, 0, 0.25);
+    border-radius: 172px;
+    position: absolute;
+    top: 140px;
+    left: 171px;
+}
+.about .image-outer{
+    width: 117.977px;
+    height: 138.227px;
+    flex-shrink: 0;
+    border-bottom-left-radius: 69px;
+    border-bottom-right-radius: 69px;
+    position: absolute;
+    top: 119px;
+    left: 171px;
+    overflow: hidden;
+}
+.about .about-text{
+    width: 690px;
+    height: 190px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 356px;
+    top: 128px;
+}
+.about .about-text p{
+    color: #FFF;
+    font-family: Poppins, Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.8rem;
+}
+.about .about-text p i{
+    color: #FFF;
+    font-family: Poppins, Montserrat;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+/* .about .decorator-one{
+    width: 287.899px;
+    height: 168.161px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.about .decorator-one .square-one{
+    width: 181.705px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    top: 0px;
+}
+.about .decorator-one .square-two{
+    width: 213.344px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    top: 0px;
+}
+.about .decorator-one .square-three{
+    width: 107.811px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    top: 0px;
+} */
+/* contacts */
+.contact{
+    width: 1192.098px;
+    height: 437.572px;
+    flex-shrink: 0;
+    background: #6E6F64;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.contact .contact-headding{
+    width: 206.02px;
+    height: 42.26px;
+    flex-shrink: 0;
+    position:absolute;
+    top: 20px;
+    left: 28px;
+}
+.contact .contact-headding h1{
+    color: #FFF;
+    font-family: Poppins, Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.contact .download-cv{
+    width: 165px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 227px;
+    left: 421px;
+    align-items: center;
+}
+.contact .download-cv p{
+    color: #000000;
+    text-align: center;
+    font-family: Poppins, Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 149.969%; /* 20.996px */
+    margin-top: 10px;
+}
+.contact .github{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 227px;
+    left: 644px;
+}
+.contact .gmail{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 227px;
+    left: 724px;
+}
+.contact .linkedin{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 227px;
+    left: 805px;
+}
+.contact .tweeter{
+    text-align: center;
+    width: 39px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    border-radius: 50px;
+    position: absolute;
+    top: 227px;
+    left: 886px;
+}
+
+/* decoration */
+.decorator-top{
+    width: 176.966px;
+    height: 252.682px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 105px;
+    right: 0px;
+    overflow: hidden;
+}
+.decorator-top .box-one{
+    width: 236.322px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    z-index: 2;
+    right: -68px;
+    top: 57px;
+}
+.decorator-top .box-two{
+    width: 136.091px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    z-index: 2;
+    right: -101px;
+    top: 33px;
+}
+.decorator-top .box-three{
+    width: 128.42px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    z-index: 2;
+    right: -54px;
+    top: 137.8px;
+}
+.decorator-top .box-four{
+    width: 136.091px;
+    height: 23.772px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    z-index: 2;
+    right: 48px;
+    top: 182px;
+}
+.decorator-top .circle{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    right: 28.2px;
+    top: 106px;
+}
+.decorator-bottom{
+    width: 327px;
+    height: 191px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.decorator-bottom .box-one{
+    width: 206.383px;
+    height: 27px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    z-index: 2;
+    left: -44px;
+    bottom: 26px;
+}
+.decorator-bottom .box-two{
+    width: 242.319px;
+    height: 22px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    left: 22.3px;
+    bottom: 46px;
+}
+.decorator-bottom .box-three{
+    width: 122.453px;
+    height: 27px;
+    transform: rotate(-45deg);
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    left: 102px;
+    bottom: -6px;
+}
+.decorator-bottom .circle{
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 36px;
+    border: 3px solid #F2E19F;
+    position: absolute;
+    left: 142px;
+    top: 38px;
+}
